@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`there are cases where it's useful to go beyond the ability to specify return values and full-on replace the implementation of a mock function. mock names and assertions  1`] = `
+[MockFunction add42] {
+  "calls": Array [
+    Array [],
+    Array [
+      1,
+      2,
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": NaN,
+    },
+    Object {
+      "type": "return",
+      "value": 43,
+    },
+  ],
+}
+`;
