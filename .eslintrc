@@ -1,0 +1,20 @@
+{
+    "plugins": ["jest-formatting"],
+    "extends": ["plugin:jest/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "jest/globals": true,
+        "es6": true
+      },
+    "rules": {
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error",
+        "jest-formatting/padding-around-describe-blocks": 2,
+        "jest-formatting/padding-around-test-blocks": 2
+      }
+}
