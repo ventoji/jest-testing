@@ -2,6 +2,7 @@
     "roots": [
       "<rootDir>/src"
     ],
+    "testEnvironment": "node",
     "setupFilesAfterEnv": [
         "<rootDir>/src/setupTests.js"
       ]
