@@ -1,8 +1,9 @@
 {
     "roots": [
-      "<rootDir>/src"
+      "<rootDir>/src",
+      "<rootDir>/src/tests/"
     ],
-    "testEnvironment": "node",
+    "testEnvironment": "jsdom",
     "setupFilesAfterEnv": [
         "<rootDir>/src/setupTests.js"
       ]
