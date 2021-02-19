@@ -5,6 +5,7 @@ let fetchData = jest.fn();
     console.log('done');
 }, 100) */
 
+// eslint-disable-next-line jest/no-disabled-tests
 test.skip('the data is peanut butter with Callback', done => {
     function callback(data) {
       try {
@@ -43,6 +44,7 @@ fetchData = () => Promise.resolve('peanut butter');
   });
 
   // let fetchData2 = () => Promise.resolve()
+  // eslint-disable-next-line jest/no-commented-out-tests
   //test('the fetch fails with an error with ASYN AWAIT', async () => {
    // expect.assertions(1);
     // await expect(fetchData2()).rejects.toThrow('error');
